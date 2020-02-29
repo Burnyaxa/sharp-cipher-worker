@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace lab1cipher.Cipher
 {
-    class VigenereCipher : IChiper
+    class VigenereCipher : ICipher
     {
         const string alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
@@ -33,7 +33,6 @@ namespace lab1cipher.Cipher
                 var codeIndex = alphabet.IndexOf(gamma[i]);
                 if (letterIndex < 0)
                 {
-                    //если буква не найдена, добавляем её в исходном виде
                     retValue += text[i].ToString();
                 }
                 else
@@ -45,14 +44,14 @@ namespace lab1cipher.Cipher
             return retValue;
         }
 
-        string IChiper.Encrypt(string text, string key)
+        string ICipher.Encrypt(string text, string key)
         {
             return Vigenere(text, key);
         }
 
-        string IChiper.Decrypt(string text, string key)
+        string ICipher.Decrypt(string text, string key)
         {
-            return Vigenere(text, key);
+            return Vigenere(text, key, false);
         }
     }
 }

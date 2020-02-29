@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace lab1cipher.Cipher
 {
-    interface IChiper
+    interface ICipher
     {
-        public string Encrypt(string text, string key);
-        public string Decrypt(string text, string key);
+        string Encrypt(string text, string key);
+        string Decrypt(string text, string key);
     }
 }

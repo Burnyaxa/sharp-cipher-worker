@@ -38,7 +38,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Cipher\IChiper.cs" />
+    <Compile Include="Cipher\ICipher.cs" />
     <Compile Include="Cipher\VigenereCipher.cs" />
     <Compile Include="Decoder\Decoder.cs" />
     <Compile Include="Encoder\Encoder.cs" />
