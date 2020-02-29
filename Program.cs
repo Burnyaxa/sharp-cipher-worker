@@ -1,4 +1,5 @@
-﻿using System;
+﻿using lab1cipher.Cipher;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,7 +11,6 @@ namespace lab1cipher
     {
         static void Main(string[] args)
         {
-            Console.Write("Hello world");
             Console.ReadKey();
         }
     }
