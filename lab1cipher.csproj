@@ -47,7 +47,12 @@
     <Compile Include="Decoder\Decoder.cs" />
     <Compile Include="Decoder\VigenereDecodedMessage.cs" />
     <Compile Include="Decoder\VigenereDecoder.cs" />
+    <Compile Include="Encoder\CaesarEncodedMessage.cs" />
+    <Compile Include="Encoder\CaesarEncoder.cs" />
+    <Compile Include="Encoder\EncodedMessage.cs" />
     <Compile Include="Encoder\Encoder.cs" />
+    <Compile Include="Encoder\VigenereEncodedMessage.cs" />
+    <Compile Include="Encoder\VigenereEncoder.cs" />
     <Compile Include="Program.cs" />
   </ItemGroup>
   <ItemGroup />
