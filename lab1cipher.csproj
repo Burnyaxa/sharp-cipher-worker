@@ -41,7 +41,12 @@
     <Compile Include="Cipher\CaesarCipher.cs" />
     <Compile Include="Cipher\ICipher.cs" />
     <Compile Include="Cipher\VigenereCipher.cs" />
+    <Compile Include="Decoder\CaesarDecodedMessage.cs" />
+    <Compile Include="Decoder\CaesarDecoder.cs" />
+    <Compile Include="Decoder\DecodedMessage.cs" />
     <Compile Include="Decoder\Decoder.cs" />
+    <Compile Include="Decoder\VigenereDecodedMessage.cs" />
+    <Compile Include="Decoder\VigenereDecoder.cs" />
     <Compile Include="Encoder\Encoder.cs" />
     <Compile Include="Program.cs" />
   </ItemGroup>
