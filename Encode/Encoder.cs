@@ -4,18 +4,18 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace lab1cipher.Encoder
+namespace lab1cipher.Encode
 {
     abstract class Encoder
     {
-        protected string text;
-        protected string key;
+        public string text { get; private set; }
+        public string key { get; private set; }
         public Encoder(string text, string key)
         {
             this.text = text;
             this.key = key;
         }
-        public abstract EncodedMessage Create(string text, string key);
+        public abstract EncodedMessage Create();
     }
 }
 

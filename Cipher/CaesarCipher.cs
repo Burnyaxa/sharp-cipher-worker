@@ -35,12 +35,12 @@ namespace lab1cipher.Cipher
 
         string ICipher.Decrypt(string text, string key)
         {
-            return CodeEncode(text, Convert.ToInt32(key));
+            return CodeEncode(text, -Convert.ToInt32(key));
         }
 
         string ICipher.Encrypt(string text, string key)
         {
-            return CodeEncode(text, -Convert.ToInt32(key));
+            return CodeEncode(text, Convert.ToInt32(key));
         }
     }
 }

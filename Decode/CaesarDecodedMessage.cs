@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace lab1cipher.Decoder
+namespace lab1cipher.Decode
 {
     class CaesarDecodedMessage : DecodedMessage
     {

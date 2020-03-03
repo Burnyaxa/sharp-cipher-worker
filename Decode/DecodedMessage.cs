@@ -4,12 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace lab1cipher.Encoder
+namespace lab1cipher.Decode
 {
-    abstract class EncodedMessage
+    abstract class DecodedMessage
     {
-        string text { get; }
-        public EncodedMessage(string text)
+        public string text { get; private set; }
+        public DecodedMessage(string text)
         {
             this.text = text;
         }

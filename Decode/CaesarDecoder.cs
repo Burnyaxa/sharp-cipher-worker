@@ -5,13 +5,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace lab1cipher.Decoder
+namespace lab1cipher.Decode
 {
     class CaesarDecoder : Decoder
     {
         public CaesarDecoder(string text, string key) : base(text, key) { }
 
-        public override DecodedMessage Create(string text, string key)
+        public override DecodedMessage Create()
         {
             ICipher caesar = new CaesarCipher();
             string decoded = caesar.Decrypt(text, key);

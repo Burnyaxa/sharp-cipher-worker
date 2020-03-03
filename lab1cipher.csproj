@@ -41,18 +41,18 @@
     <Compile Include="Cipher\CaesarCipher.cs" />
     <Compile Include="Cipher\ICipher.cs" />
     <Compile Include="Cipher\VigenereCipher.cs" />
-    <Compile Include="Decoder\CaesarDecodedMessage.cs" />
-    <Compile Include="Decoder\CaesarDecoder.cs" />
-    <Compile Include="Decoder\DecodedMessage.cs" />
-    <Compile Include="Decoder\Decoder.cs" />
-    <Compile Include="Decoder\VigenereDecodedMessage.cs" />
-    <Compile Include="Decoder\VigenereDecoder.cs" />
-    <Compile Include="Encoder\CaesarEncodedMessage.cs" />
-    <Compile Include="Encoder\CaesarEncoder.cs" />
-    <Compile Include="Encoder\EncodedMessage.cs" />
-    <Compile Include="Encoder\Encoder.cs" />
-    <Compile Include="Encoder\VigenereEncodedMessage.cs" />
-    <Compile Include="Encoder\VigenereEncoder.cs" />
+    <Compile Include="Decode\CaesarDecodedMessage.cs" />
+    <Compile Include="Decode\CaesarDecoder.cs" />
+    <Compile Include="Decode\DecodedMessage.cs" />
+    <Compile Include="Decode\Decoder.cs" />
+    <Compile Include="Decode\VigenereDecodedMessage.cs" />
+    <Compile Include="Decode\VigenereDecoder.cs" />
+    <Compile Include="Encode\CaesarEncodedMessage.cs" />
+    <Compile Include="Encode\CaesarEncoder.cs" />
+    <Compile Include="Encode\EncodedMessage.cs" />
+    <Compile Include="Encode\Encoder.cs" />
+    <Compile Include="Encode\VigenereEncodedMessage.cs" />
+    <Compile Include="Encode\VigenereEncoder.cs" />
     <Compile Include="Program.cs" />
   </ItemGroup>
   <ItemGroup />
